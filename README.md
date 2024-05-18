@@ -1,5 +1,5 @@
-# GNS3 VM Lab Setup Part 1 (GNS3, VMWare Workstation and Cisco CSR1000v Install)
-GNS3 VM Lab Setup Part 1 (GNS3, VMWare Workstation and Cisco CSR1000v Install)
+# GNS3 VM Lab Setup (GNS3, VMWare Workstation and Cisco CSR1000v Install)
+GNS3 VM Lab Setup (GNS3, VMWare Workstation and Cisco CSR1000v Install)
 
 
 GNS3 VM Lab Setup Part 1 (GNS3, VMWare Workstation and Cisco CSR1000v Install)
