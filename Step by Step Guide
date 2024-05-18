@@ -1,0 +1,20 @@
+*******
+Step By Step Guide:
+*******
+
+1) Download GNS3
+
+https://www.gns3.com/software/download
+
+2) Download and install VMWare Workstation:
+
+https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html.html
+
+3) Download the GNS3 VM:
+
+https://gns3.com/software/download-vm
+
+4) Download the Cisco CSR1000v Image:
+
+https://www.gns3.com/marketplace/featured/cisco-csr1000v
+
