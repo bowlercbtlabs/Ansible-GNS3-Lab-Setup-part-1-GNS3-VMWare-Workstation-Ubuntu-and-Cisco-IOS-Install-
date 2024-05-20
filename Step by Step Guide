@@ -8,7 +8,7 @@ https://www.gns3.com/software/download
 
 2) Download and install VMWare Workstation:
 
-https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html.html
+https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
 
 3) Download and install Ubuntu:
 
@@ -18,9 +18,13 @@ https://ubuntu.com/download/desktop
 
 https://gns3.com/software/download-vm
 
-5) Download and install the Cisco CSR1000v Image:
+5) Download and install the Cisco Image:
 
-https://www.gns3.com/marketplace/featured/cisco-csr1000v
+https://www.gns3.com/marketplace/featured/cisco-3725
+
+6) Add devices to GNS3:
+
+
 
 
 
