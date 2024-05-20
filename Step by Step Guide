@@ -24,6 +24,19 @@ https://www.gns3.com/marketplace/featured/cisco-3725
 
 6) Add devices to GNS3:
 
+- Enable the GNS3 VM under Edit > Preferences
+- Select the Ubuntu Server
+- Under VMware Preferences
+  - check the 'block network traffic originating from the host OS'
+  - click the 'configure' box under vmnet2 to vmnet19 options. this will allow GNS3 to automatically configure the vmnet interfaces
+
+
+7) Modify etc/ssh/ssh_config file to allow older version of ssh to work to connect to the Cisco routers:
+
+sudo vi /etc/ssh/ssh_config (add following lines to end of file):
+
+KexAlgorithms diffie-hellman-group1-sha1,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1
+HostKeyAlgorithms +ssh-rsa
 
 
 
