@@ -31,13 +31,30 @@ https://www.gns3.com/marketplace/featured/cisco-3725
   - click the 'configure' box under vmnet2 to vmnet19 options. this will allow GNS3 to automatically configure the vmnet interfaces
 
 
-7) Modify etc/ssh/ssh_config file to allow older version of ssh to work to connect to the Cisco routers:
+7) Enable SSH on the Routers:
+
+ip domain name bowlercbtlabs
+crytpo key generate-rsa 
+ip ssh version 2
+username steve privilege 15 password 0 password
+line vty 0 4
+ login local
+ transport input ssh
+
+
+8) Modify etc/ssh/ssh_config file to allow older version of ssh to work to connect to the Cisco routers:
 
 sudo vi /etc/ssh/ssh_config (add following lines to end of file):
 
 KexAlgorithms diffie-hellman-group1-sha1,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1
 HostKeyAlgorithms +ssh-rsa
 
+9) Try to now ping and ssh from Ubuntu server to the routers:
+
+ubuntu# ping 192.168.158.200 
+ubuntu# ssh steve@192.168.158.200
+
+10) Once we have reachability via ssh we can now start installing and creating ansible playbooks to push to our GNS3 clients
 
 
 
