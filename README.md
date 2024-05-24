@@ -1,8 +1,8 @@
-# Ansible GNS3 Lab Setup using Cisco IOS (GNS3, VMWare Workstation, Ubuntu and Cisco IOS Install)
-Ansible GNS3 Lab Setup using Cisco IOS (GNS3, VMWare Workstation, Ubuntu and Cisco IOS Install)
+# Ansible GNS3 Lab Setup part 1 (GNS3, VMWare Workstation, Ubuntu and Cisco IOS Install)
+Ansible GNS3 Lab Setup part 1 (GNS3, VMWare Workstation, Ubuntu and Cisco IOS Install)
 
 
-Ansible GNS3 Lab Setup using Cisco IOS Part 1 (GNS3, VMWare Workstation, Ubuntu and Cisco IOS Install)
+Ansible GNS3 Lab Setup Part 1 (GNS3, VMWare Workstation, Ubuntu and Cisco IOS Install)
 
 In this video I configure and explain the following:
 
@@ -12,4 +12,4 @@ In this video I configure and explain the following:
 - Download and install Ubuntu
 - Download and install the Cisco IOS Image inside GNS3
 - Connect the Ubuntu VM to the Cisco Routers inside GNS3
-- In part 2 we will install Ansible on the Ubuntu Server and verify connectivity to our hosts
+- In part 2 we will install Ansible on the Ubuntu Server, verify connectivity to our hosts and run some playbooks
