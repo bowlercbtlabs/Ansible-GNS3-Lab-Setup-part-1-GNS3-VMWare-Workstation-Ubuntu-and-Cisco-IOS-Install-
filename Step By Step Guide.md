@@ -51,7 +51,7 @@ Installation will begin:
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/4bd830d8-3312-4842-972c-912aeb51f30c)
 
-- power on the Ubuntu Server, open a terminal connection, run updates and enable the interfaces:
+- power on the Ubuntu Server, open a terminal connection, login with your credentials you created in previous steps, run updates and enable the interfaces:
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/75b68185-1178-46fa-bbfa-0002f7e4f945)
 
