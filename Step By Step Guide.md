@@ -103,8 +103,26 @@ https://www.gns3.com/marketplace/featured/cisco-3725
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/c7fb1e94-63d6-4b95-9af1-fee6bc8fa15e)
 
+- Add the Ubuntu Server to GNS3:
+
+Edit > Preferences > VMWare > VMWare VMs > New
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/7b29db5f-e8c8-455c-9400-324ab04fa83b)
+
+Select the Ubuntu VM and click finish:
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/da42bea8-376a-41f4-bd81-d16727be57da)
+
+You will now see the Ubuntu VM inside GNS3:
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/bbc9ad45-7d35-46dc-b544-5253b455d12f)
+
+Drag it over to the 
 
 6) Add the switch into GNS3
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/0dd00514-760f-4136-882b-59adf136550e)
+
   - Add the 2nd port on the Ubuntu server to the switch (created in step 3)
   - Add the 1st port on the routers to the switch
 
