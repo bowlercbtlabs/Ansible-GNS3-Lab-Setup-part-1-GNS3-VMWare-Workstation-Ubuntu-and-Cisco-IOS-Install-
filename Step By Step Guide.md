@@ -36,6 +36,9 @@ https://ubuntu.com/download/desktop
 
 https://www.gns3.com/software/download
 
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/f24983a9-96c7-4d31-97cd-79dee999fcec)
+
+
 - Create a new project
 
 4) Download and install the Cisco Image in GNS3:
