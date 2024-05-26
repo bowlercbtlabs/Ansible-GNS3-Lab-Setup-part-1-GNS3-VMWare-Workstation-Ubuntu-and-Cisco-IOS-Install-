@@ -17,9 +17,13 @@ https://ubuntu.com/download/desktop
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/b5cc7614-f3b2-4f82-936d-b6ed9010dd31)
 
-- Add a 2nd interface to the ubuntu server, this will be for the connection inside GNS3
+- Add a 2nd interface to the ubuntu server, this will be for the connection inside GNS3:
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/4bd830d8-3312-4842-972c-912aeb51f30c)
+
+
+
+
 
 
 3) Download GNS3
