@@ -39,7 +39,13 @@ Click finish:
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/efc94da3-dc3a-4391-ad67-44039e54b527)
 
+Once the setup comes up, run through the default settings, then add a user account and computer name shown below:
 
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/3dabedfb-9342-47d6-864b-cc2a1b07e87f)
+
+Installation will begin:
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/35e17b50-0e6e-46dc-83e8-f0c70259e55d)
 
 
 
