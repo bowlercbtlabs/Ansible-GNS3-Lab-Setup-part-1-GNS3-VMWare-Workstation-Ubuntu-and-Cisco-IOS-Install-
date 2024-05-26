@@ -47,6 +47,7 @@ Installation will begin:
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/35e17b50-0e6e-46dc-83e8-f0c70259e55d)
 
+- Once Installation is complete,
 
 
 
