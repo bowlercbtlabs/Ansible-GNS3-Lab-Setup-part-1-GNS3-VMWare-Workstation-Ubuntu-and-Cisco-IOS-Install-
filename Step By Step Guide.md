@@ -4,13 +4,21 @@ Step By Step Guide:
 
 1) Download and install VMWare Workstation:
 
-https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
+https://www.techspot.com/downloads/1969-vmware-player.html
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/cf63d16c-8c2e-4a42-8c0a-5908c2d9c620)
+
 
 2) Download and install Ubuntu:
 
 https://ubuntu.com/download/desktop
 
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/096d8b3c-f2aa-4f50-9732-c323d3e3801e)
+
 - Add a 2nd interface to the ubuntu server, this will be for the connection inside GNS3
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/4bd830d8-3312-4842-972c-912aeb51f30c)
+
 
 3) Download GNS3
 
