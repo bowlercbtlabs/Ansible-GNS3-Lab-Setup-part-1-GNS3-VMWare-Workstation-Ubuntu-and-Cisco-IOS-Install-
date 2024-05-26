@@ -186,21 +186,38 @@ Click on network tab, select 'allow GNS3 to override non custom vmware adapter a
 
 10) Enable SSH on the Routers:
 
+
 ip domain name bowlercbtlabs
 crytpo key generate-rsa 
 ip ssh version 2
 username steve privilege 15 password 0 password
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/e57d1ef5-857d-4e4a-b793-f869d538448e)
+
+
 line vty 0 4
  login local
  transport input ssh
 
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/2830e458-c3e0-4325-8df5-b6babd7af457)
+
+
 10) Modify the etc/ssh/ssh_config file on the Ubuntu server to allow older version of ssh to work to connect to the Cisco routers:
 
-sudo vi /etc/ssh/ssh_config (add following lines to end of file):
+- first install VIM:
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/100b890b-200a-45e0-a355-2919a55481a2)
+
+vim /etc/ssh/ssh_config (add following lines to end of file):
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/2746139c-8f88-4aa1-a54b-7d2ac976f4a4)
 
 KexAlgorithms diffie-hellman-group1-sha1,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1
 
 HostKeyAlgorithms +ssh-rsa
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/6311bd98-d3b0-4d01-8c16-ae9c866ac022)
+
 
 11) Try to now ssh from Ubuntu server to the routers:
 
