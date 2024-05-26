@@ -202,9 +202,11 @@ line vty 0 4
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/2830e458-c3e0-4325-8df5-b6babd7af457)
 
 
-10) Modify the etc/ssh/ssh_config file on the Ubuntu server to allow older version of ssh to work to connect to the Cisco routers:
+11) Enable SSH on the Ubuntu server and modify the etc/ssh/ssh_config file to allow older version of ssh to work to connect to the Cisco routers:
 
-- first install VIM:
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/b34f77f6-f2cf-4cbd-b436-943150735ccc)
+
+- install VIM:
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/100b890b-200a-45e0-a355-2919a55481a2)
 
@@ -219,13 +221,13 @@ HostKeyAlgorithms +ssh-rsa
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/6311bd98-d3b0-4d01-8c16-ae9c866ac022)
 
 
-11) Try to now ssh (using the username/password created earlier) from Ubuntu server to the router:
+12) Try to now ssh (using the username/password created earlier) from Ubuntu server to the router:
 
 ubuntu# ssh steve@192.168.158.200
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/fd06ec59-983d-4d84-8f26-23cc9ea20877)
 
-12) Now add 2 more routers to the GNS3 project, connect them to the switch, power them up, add the ssh configuration and give them IP addresses on the same subnet (192.168.158.0/24)
+13) Now add 2 more routers to the GNS3 project, connect them to the switch, power them up, add the ssh configuration and give them IP addresses on the same subnet (192.168.158.0/24)
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/0181c1bf-6926-4c78-a502-88540e4da01f)
 
@@ -255,4 +257,4 @@ If at any time you are experiencing high CPU utilization on your computer when a
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/67097b5f-0f1f-4973-85ed-b3254b6928ea)
 
 
-12) Once we have reachability via ssh we can now start installing and creating ansible playbooks to push to our GNS3 clients, We will do this in Ansible GNS3 Lab Setup part 2
+14) Once we have reachability via ssh we can now start installing and creating ansible playbooks to push to our GNS3 clients, We will do this in Ansible GNS3 Lab Setup part 2
