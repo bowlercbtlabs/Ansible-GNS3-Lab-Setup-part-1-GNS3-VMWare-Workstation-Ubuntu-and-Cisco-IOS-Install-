@@ -1,4 +1,4 @@
-*******
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/d91bbe18-5b1f-43ff-a213-03f33cbcd0ea)*******
 Step By Step Guide:
 *******
 
@@ -117,20 +117,64 @@ You will now see the Ubuntu VM inside GNS3:
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/bbc9ad45-7d35-46dc-b544-5253b455d12f)
 
-Drag it over to the 
+Drag it over to the working area of the project:
 
-6) Add the switch into GNS3
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/b7fda016-a6d1-451a-8519-8f48b8a91ccb)
 
-![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/0dd00514-760f-4136-882b-59adf136550e)
+Configure the Ubuntu Server to show the 2 interfaces:
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/d3fb4823-b9f8-4b12-a795-18127259f9c6)
+
+Click on network tab, select 'allow GNS3 to override non custom vmware adapter and change network adapters to 2:
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/ae65235d-27bf-4068-a8e8-2069c29e9976)
+
+
+6) Add the ethernet switch into GNS3
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/527e5711-1d02-4eb5-ad11-4646f1645119)
+
 
   - Add the 2nd port on the Ubuntu server to the switch (created in step 3)
-  - Add the 1st port on the routers to the switch
 
-7) power up the router/routers and ping between them
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/8921e6b4-e6e4-4cff-ab8b-cbf2f49d9f43)
 
-8) power up the Ubuntu Server VM inside GNS3 and test ping reachability to the routers
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/7ec9d914-4714-4ab1-b883-efe0be08f38b)
 
-9) Enable SSH on the Routers:
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/c842cf61-77a1-4af9-a37b-b0ff609701c0)
+
+  - Add the 1st port on the router to the switch
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/c8dd6740-b876-48b6-ba15-5de1413603a9)
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/e82f252b-de12-497c-b212-c19d29bd1831)
+
+
+7) power up the Ubuntu Server
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/ff245f54-722e-4dc5-9fe0-046b3113ceaf)
+
+- The Ubuntu server link will go green in GNS3
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/144f03dc-4d16-41ea-945d-6cb34b0a1d7e)
+
+
+
+9) power up the Router
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/ee57b4be-fda0-4653-81ad-06b96d8c7ec5)
+
+- The Router link will go green in GNS3
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/5fb4a6e1-7f11-40e9-8735-6ddbcdc094de)
+
+10) Console into the router and assign it an IP address on the same subnet as the Ubuntu Server
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/f3925433-eb41-4d8a-853f-24c9859509a9)
+
+
+
+10) Enable SSH on the Routers:
 
 ip domain name bowlercbtlabs
 crytpo key generate-rsa 
