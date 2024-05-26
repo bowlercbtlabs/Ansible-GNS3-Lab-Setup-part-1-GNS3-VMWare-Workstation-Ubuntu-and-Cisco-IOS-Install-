@@ -30,7 +30,7 @@ https://ubuntu.com/download/desktop
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/6533a833-d587-473f-83a1-31d619d9c164)
 
 
-3) Download GNS3
+3) Download and install GNS3
 
 https://www.gns3.com/software/download
 
@@ -43,33 +43,66 @@ https://www.gns3.com/software/download
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/bb4ca286-e928-4782-985e-b34ca3c59e9c)
 
+https://www.gns3.com/marketplace/featured/cisco-3725
 
-https://www.gns3.com/marketplace/featured/cisco-7200
 
 5) Download the Cisco Image:
 
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/579277d4-911b-434a-b529-819b9cc27fd4)
 
 
-5) Create a new project:
+5) Open GNS3 and Create a new project:
 
-- download the IOS image
-- load the IOS image into GNS3 via 'new template' > 
-  - then select 'install appliance from the GNS3 server' 
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/688dbc39-7ef1-4118-bfe5-7e728fc54e2f)
+
+
+- load the IOS image into GNS3 via 'new template' then select 'install appliance from the GNS3 server':
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/6fa9ee55-3429-4c32-be06-de9421456fa8)
+
   - from dropdown select the appliance type "router/firewall" etc... then select the model type 
   - click 'install'
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/98675839-52ff-4b65-b1c3-1483c97948f0)
+
+
   - then select 'install the device on your local computer'
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/a24a182f-850d-4cc2-865d-44b8aecce22e)
+
   - then import and select the appropriate version and file and select next
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/dfca6faf-9203-4a99-82c6-0172c8996159)
+
   - when asked to install the new device select 'yes'
-  - you should now see the device added to GNS3 
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/8544ffa3-6595-4c70-ba29-9ce71715fae7)
+
+  - you should now see the device added to GNS3
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/0f96b214-5ab4-4917-bf81-381f2fc1230e)
+
   - add the new router into gns3
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/6d53cdeb-8774-4b15-a9fd-18cf6156a0e7)
+
 
 5) Add the Ubuntu device to GNS3:
 
 - Enable the GNS3 VM under Edit > Preferences
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/8f96d797-6f0c-47bb-85df-0663d8ffc17e)
+
 - Select the Ubuntu Server
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/7a8acca7-8567-46b1-8095-f8be4c357583)
+
 - Under VMware Preferences
   - check the 'block network traffic originating from the host OS'
   - click the 'configure' box under vmnet2 to vmnet19 options. this will allow GNS3 to automatically configure the vmnet interfaces
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/c7fb1e94-63d6-4b95-9af1-fee6bc8fa15e)
+
 
 6) Add the switch into GNS3
   - Add the 2nd port on the Ubuntu server to the switch (created in step 3)
