@@ -219,9 +219,11 @@ HostKeyAlgorithms +ssh-rsa
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/6311bd98-d3b0-4d01-8c16-ae9c866ac022)
 
 
-11) Try to now ssh from Ubuntu server to the routers:
+11) Try to now ssh (using the username/password created earlier) from Ubuntu server to the router:
 
-ubuntu# ping 192.168.158.200 
 ubuntu# ssh steve@192.168.158.200
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/fd06ec59-983d-4d84-8f26-23cc9ea20877)
+
 
 12) Once we have reachability via ssh we can now start installing and creating ansible playbooks to push to our GNS3 clients, We will do this in Ansible GNS3 Lab Setup part 2
