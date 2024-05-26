@@ -37,11 +37,18 @@ https://www.gns3.com/software/download
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/f24983a9-96c7-4d31-97cd-79dee999fcec)
 
 
-4) Download and install the Cisco Image in GNS3:
+4) Download the Cisco appliance file:
 
-![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/db68f23b-9c7c-4614-8861-645811f1173b)
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/17765234-e40f-47e4-9b11-8831e789a5d8)
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/bb4ca286-e928-4782-985e-b34ca3c59e9c)
+
 
 https://www.gns3.com/marketplace/featured/cisco-7200
+
+5) Download the Cisco Image:
+
+
 
 5) Create a new project:
 
