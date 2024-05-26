@@ -53,6 +53,11 @@ Reboot the Ubuntu server when installation has completed:
 
 - you should see the new Ubuntu VM inside VMWare, lets go to the settings and add a 2nd interface to the ubuntu server, this will be for the connection inside GNS3:
 
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/cc87a12b-572e-4331-987a-ea0124575df1)
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/43a25cb7-c44b-4332-ab25-9bbf3ed9fb3a)
+
+
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/4bd830d8-3312-4842-972c-912aeb51f30c)
 
 - power on the Ubuntu Server, open a terminal connection, login with your credentials you created in previous steps, run system updates and enable the interfaces:
