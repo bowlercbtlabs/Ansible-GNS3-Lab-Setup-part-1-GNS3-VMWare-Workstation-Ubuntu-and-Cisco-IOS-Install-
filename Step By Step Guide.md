@@ -168,11 +168,21 @@ Click on network tab, select 'allow GNS3 to override non custom vmware adapter a
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/5fb4a6e1-7f11-40e9-8735-6ddbcdc094de)
 
-10) Console into the router and assign it an IP address on the same subnet as the Ubuntu Server
+10) Console into the router and assign it an IP address on the same subnet as the Ubuntu Server (192.168.158.0/24)
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/f3925433-eb41-4d8a-853f-24c9859509a9)
 
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/f27dcf6b-267e-44f4-8d1c-2fcd450273f8)
 
+- Ping from the router to the ubuntu server (192.168.158.128)
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/dcd30e67-d365-46a9-b114-f057c152efe3)
+
+- Ping from the ubuntu server to the router (192.168.158.200)
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/d447e599-edcc-4340-bb8a-67cc58809daf)
+
+- We now have reachability between the Ubuntu server and the router
 
 10) Enable SSH on the Routers:
 
@@ -189,6 +199,7 @@ line vty 0 4
 sudo vi /etc/ssh/ssh_config (add following lines to end of file):
 
 KexAlgorithms diffie-hellman-group1-sha1,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1
+
 HostKeyAlgorithms +ssh-rsa
 
 11) Try to now ssh from Ubuntu server to the routers:
