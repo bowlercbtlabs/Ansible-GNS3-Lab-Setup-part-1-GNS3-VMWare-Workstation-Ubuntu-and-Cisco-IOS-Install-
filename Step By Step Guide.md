@@ -1,4 +1,4 @@
-![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/d91bbe18-5b1f-43ff-a213-03f33cbcd0ea)*******
+*******
 Step By Step Guide:
 *******
 
