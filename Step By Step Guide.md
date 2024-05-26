@@ -188,7 +188,7 @@ Click on network tab, select 'allow GNS3 to override non custom vmware adapter a
 
 
 ip domain name bowlercbtlabs
-crytpo key generate-rsa 
+crypto key generate rsa 2048
 ip ssh version 2
 username steve privilege 15 password 0 password
 
@@ -224,6 +224,35 @@ HostKeyAlgorithms +ssh-rsa
 ubuntu# ssh steve@192.168.158.200
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/fd06ec59-983d-4d84-8f26-23cc9ea20877)
+
+12) Now add 2 more routers to the GNS3 project, connect them to the switch, power them up, add the ssh configuration and give them IP addresses on the same subnet (192.168.158.0/24)
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/0181c1bf-6926-4c78-a502-88540e4da01f)
+
+- Once completed, ping the new routers from the ubuntu server:
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/242acc48-a1ba-49fc-9b95-a204f0fc6e7d)
+
+- try to ssh to the new routers:
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/e0296b7e-80a7-41d3-bb08-381ea99702bc)
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/7b4213ee-d23a-41f7-80d2-9e2e03d5db5b)
+
+- Here is what the final network topology will look like (your subnet may be different):
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/5fe7a8bc-1ca0-47e9-804e-0fad986b58d1)
+
+
+*** NOTE ***
+
+If at any time you are experiencing high CPU utilization on your computer when adding routers you can manually set the idle-pc timeout value, select the option with the (*) to get the best CPU performance as shown below:
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/a0b6f2ae-e989-47df-9b46-f286c7894d4e)
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/615352a3-d9c3-4540-bcb1-b9ed8195f2e1)
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/67097b5f-0f1f-4973-85ed-b3254b6928ea)
 
 
 12) Once we have reachability via ssh we can now start installing and creating ansible playbooks to push to our GNS3 clients, We will do this in Ansible GNS3 Lab Setup part 2
