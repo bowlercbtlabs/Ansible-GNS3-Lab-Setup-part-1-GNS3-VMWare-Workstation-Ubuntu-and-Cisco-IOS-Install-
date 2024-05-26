@@ -57,6 +57,8 @@ Reboot the Ubuntu server when installation has completed:
 
 - power on the Ubuntu Server, open a terminal connection, login with your credentials you created in previous steps, run system updates and enable the interfaces:
 
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/6a50f9a9-4203-47ca-a177-4670e71068b4)
+
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/75b68185-1178-46fa-bbfa-0002f7e4f945)
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/5fb41204-e733-4255-91a3-7f6580bfa25b)
