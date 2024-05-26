@@ -12,4 +12,6 @@ In this video I configure and explain the following:
 - Download and install Ubuntu
 - Download and install the Cisco IOS Image inside GNS3
 - Connect the Ubuntu VM to the Cisco Routers inside GNS3
+- Verify reachability between the Ubuntu VM and the Cisco routers via ICMP
+- Setup SSH on the Ubuntu VM and the Cisco Routers
 - In part 2 we will install Ansible on the Ubuntu Server, verify connectivity to our hosts and run some playbooks
