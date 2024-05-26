@@ -47,7 +47,11 @@ Installation will begin:
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/35e17b50-0e6e-46dc-83e8-f0c70259e55d)
 
-- Once Installation is complete you should see the new Ubuntu VM inside VMWare, lets go to the settings and add a 2nd interface to the ubuntu server, this will be for the connection inside GNS3:
+Reboot the Ubuntu server when installation has completed:
+
+![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/2f01a3df-c250-4db5-b95b-0b22cca293be)
+
+- you should see the new Ubuntu VM inside VMWare, lets go to the settings and add a 2nd interface to the ubuntu server, this will be for the connection inside GNS3:
 
 ![image](https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-/assets/120626722/4bd830d8-3312-4842-972c-912aeb51f30c)
 
