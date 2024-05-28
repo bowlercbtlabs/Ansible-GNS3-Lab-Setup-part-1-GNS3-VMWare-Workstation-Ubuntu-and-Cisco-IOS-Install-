@@ -15,3 +15,7 @@ In this video I configure and explain the following:
 - Verify reachability between the Ubuntu VM and the Cisco routers via ICMP
 - Setup SSH on the Ubuntu VM and the Cisco Routers
 - In part 2 we will install Ansible on the Ubuntu Server, verify connectivity to our hosts and run some playbooks
+
+Github repo with step by step install guide below!
+https://github.com/bowlercbtlabs/Ansible-GNS3-Lab-Setup-part-1-GNS3-VMWare-Workstation-Ubuntu-and-Cisco-IOS-Install-
+
